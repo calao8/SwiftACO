@@ -6,7 +6,7 @@ import time
 
 options = Options()
 options.headless = True
-driver = webdriver.Chrome('/usr/local/bin/chromedriver', chrome_options=options)
+driver = webdriver.Chrome('chromedriver path here', chrome_options=options)
 
 # Address information
 
